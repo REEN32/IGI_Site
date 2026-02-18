@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СтройМастер - Строительная компания</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключение Font Awesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта (Навигация) -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#">Строй<span>Мастер</span></a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-phone">
+                <a href="tel:+79991234567"><i class="fas fa-phone-alt"></i> +7 (999) 123-45-67</a>
+            </div>
+            <!-- Мобильное меню (бургер) - будет работать с CSS -->
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Главный экран (Hero) -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <h1>Строим дома и коммерческие объекты <span>под ключ</span></h1>
+                <p>Индивидуальный подход, современные технологии и гарантия качества. Воплотим ваши идеи в жизнь.</p>
+                <a href="#contact" class="btn btn-primary">Получить консультацию</a>
+            </div>
+        </section>
+
+        <!-- Блок "Наши услуги" -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-home"></i>
+                        <h3>Строительство домов</h3>
+                        <p>Кирпичные, монолитные и каркасные дома любой сложности.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-building"></i>
+                        <h3>Коммерческие объекты</h3>
+                        <p>Офисные центры, склады, торговые помещения.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3>Проектирование</h3>
+                        <p>Разработка архитектурных и конструктивных решений.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-tools"></i>
+                        <h3>Ремонт и отделка</h3>
+                        <p>Капитальный ремонт, внутренняя и внешняя отделка.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок "Почему мы" (Преимущества) -->
+        <section id="about" class="why-us">
+            <div class="container">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <div class="why-us-grid">
+                    <div class="why-us-item">
+                        <i class="fas fa-medal"></i>
+                        <h4>10 лет опыта</h4>
+                        <p>Более 100 успешно сданных объектов.</p>
+                    </div>
+                    <div class="why-us-item">
+                        <i class="fas fa-clock"></i>
+                        <h4>Соблюдение сроков</h4>
+                        <p>Четкое следование графику работ.</p>
+                    </div>
+                    <div class="why-us-item">
+                        <i class="fas fa-ruble-sign"></i>
+                        <h4>Прозрачные цены</h4>
+                        <p>Фиксированная смета без скрытых платежей.</p>
+                    </div>
+                    <div class="why-us-item">
+                        <i class="fas fa-helmet-safety"></i>
+                        <h4>Квалифицированные кадры</h4>
+                        <p>Только опытные специалисты и инженеры.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Галерея проектов -->
+       <!-- Галерея проектов -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">Наши последние проекты</h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Современный коттедж с бассейном">
+                <div class="project-overlay">
+                    <h3>Современный коттедж</h3>
+                    <p>Жилой комплекс "Березки", 320 м²</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Многоэтажный жилой комплекс">
+                <div class="project-overlay">
+                    <h3>Жилой комплекс "Акварель"</h3>
+                    <p>17-этажное здание, 144 квартиры</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Офисное здание с панорамными окнами">
+                <div class="project-overlay">
+                    <h3>Бизнес-центр "Плаза"</h3>
+                    <p>Офисное здание класса А, 8500 м²</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Таунхаусы в современном стиле">
+                <div class="project-overlay">
+                    <h3>Таунхаусы "Парковый"</h3>
+                    <p>12 жилых блоков с террасами</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Загородный дом с каменной отделкой">
+                <div class="project-overlay">
+                    <h3>Загородная резиденция</h3>
+                    <p>Элитный поселок "Лесные озера"</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Торговый центр с подсветкой">
+                <div class="project-overlay">
+                    <h3>Торговый центр "Мегаполис"</h3>
+                    <p>3 этажа, подземный паркинг</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Контакты и форма обратной связи -->
+        <section id="contact" class="contact">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2>Контакты</h2>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Строителей, д. 15</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@stroymaster.ru">info@stroymaster.ru</a></li>
+                        <li><i class="fas fa-clock"></i> Пн-Пт: 9:00 - 18:00</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Остались вопросы?</h3>
+                    <p>Напишите нам, и мы свяжемся с вами в ближайшее время.</p>
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Телефон" required>
+                        <textarea placeholder="Ваш вопрос" rows="4"></textarea>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал сайта (Футер) -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2023 СтройМастер. Все права защищены.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
